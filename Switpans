@@ -1,0 +1,128 @@
+1<!DOCTYPE html>
+2<html lang="ar" dir="rtl">
+3<head>
+4<meta charset="UTF-8" />
+5<meta name="viewport" content="width=device-width, initial-scale=1" />
+6<title>Galaxy Nouaim Phone</title>
+7<style>
+8  body {
+9    font-family: Arial, sans-serif;
+10    margin: 0;
+11    background: #f8f8f8;
+12    color: #333;
+13  }
+14  header {
+15    background: #a6863e;
+16    color: #fff;
+17    padding: 1rem;
+18    text-align: center;
+19  }
+20  header h1 {
+21    margin: 0;
+22    font-size: 2.5rem;
+23  }
+24  .tagline {
+25    font-size: 1.2rem;
+26    font-weight: bold;
+27  }
+28  .store-front {
+29    margin: 2rem auto;
+30    max-width: 1200px;
+31    background: #fff;
+32    border-radius: 8px;
+33    overflow: hidden;
+34    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+35  }
+36  .store-front img {
+37    max-width: 100%;
+38    display: block;
+39  }
+40  .products {
+41    display: flex;
+42    flex-wrap: wrap;
+43    justify-content: center;
+44    gap: 2rem;
+45    padding: 2rem;
+46  }
+47  .product-category {
+48    flex: 1 1 300px;
+49    max-width: 400px;
+50  }
+51  .product-category h2 {
+52    border-bottom: 2px solid #a6863e;
+53    padding-bottom: 0.5rem;
+54    margin-bottom: 1rem;
+55    color: #a6863e;
+56  }
+57  .product-list {
+58    list-style: none;
+59    padding: 0;
+60    margin: 0;
+61  }
+62  .product-list li {
+63    background: #e9e6d8;
+64    margin-bottom: 0.5rem;
+65    padding: 0.5rem 1rem;
+66    border-radius: 4px;
+67  }
+68  footer {
+69    background: #a6863e;
+70    color: #fff;
+71    text-align: center;
+72    padding: 1rem;
+73    margin-top: 2rem;
+74  }
+75  @media (max-width: 600px) {
+76    .products {
+77      flex-direction: column;
+78      padding: 1rem;
+79    }
+80  }
+81</style>
+82</head>
+83<body>
+84
+85<header>
+86  <h1>Galaxy Nouaim Phone</h1>
+87  <p class="tagline">ملحقات وصيانة الهواتف المحمولة</p>
+88</header>
+89
+90<section class="store-front">
+91  <img src="https://i.imgur.com/4RKf7ZL.jpg" alt="واجهة متجر Galaxy Nouaim Phone" />
+92
+93  <div class="products">
+94    <div class="product-category">
+95      <h2>اكسسوارات الهاتف</h2>
+96      <ul class="product-list">
+97        <li>مجموعة كبيرة من أغطية الهواتف الملونة</li>
+98        <li>واقيات شاشة</li>
+99        <li>شواحن وكابلات</li>
+100        <li>سماعات الأذن والهواتف</li>
+101      </ul>
+102    </div>
+103    <div class="product-category">
+104      <h2>خدمات الصيانة</h2>
+105      <ul class="product-list">
+106        <li>تغيير شاشة الهاتف</li>
+107        <li>إصلاح واستبدال البطارية</li>
+108        <li>إصلاح منفذ الشحن</li>
+109        <li>خدمات الفلاش والبرمجة</li>
+110      </ul>
+111    </div>
+112    <div class="product-category">
+113      <h2>الهواتف الشعبية</h2>
+114      <ul class="product-list">
+115        <li>سلسلة سامسونج جلاكسي</li>
+116        <li>هواتف آيفون من أبل</li>
+117        <li>ماركات شهيرة أخرى</li>
+118      </ul>
+119    </div>
+120  </div>
+121</section>
+122
+123<footer>
+124  <p>Galaxy Nouaim Phone - وجهتك الشاملة لإكسسوارات وصيانة الهواتف</p>
+125</footer>
+126
+127</body>
+128</
